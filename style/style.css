@@ -1,0 +1,52 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.reg{
+    display: flex;
+    flex-direction: column;
+}
+
+.zagalov{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+form{
+    border-radius: 10px;
+    padding: 50px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.formss{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    border: 3px solid rgb(255, 1, 1);
+    background-color: transparent;
+    width: 200px;
+    transition: 0.5s;
+    height: 30px;
+}
+
+.button:hover{
+    background-color:  rgb(255, 1, 1);
+    transition: 0.5s;
+}
+
+.errors{
+    color: red;
+    font-size: 10px;
+}
